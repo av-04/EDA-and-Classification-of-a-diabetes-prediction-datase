@@ -26,7 +26,7 @@ Modeling & Data Leakage:
 
 Transformed the target variable diabetes_risk_score (0-100) into a 3-class problem (Low, Medium, High) using pd.qcut.
 
-Initial models returned 99-100% accuracy.
+The models returned 75 to 82% accuracy.
 
 Diagnosed Data Leakage: The target diabetes_risk_score is a calculated score. The features (x) included the "ingredients" used in its calculation (e.g., hba1c, glucose_fasting, diagnosed_diabetes, bmi).
 
