@@ -30,7 +30,8 @@ Initial models returned 99-100% accuracy.
 
 Diagnosed Data Leakage: The target diabetes_risk_score is a calculated score. The features (x) included the "ingredients" used in its calculation (e.g., hba1c, glucose_fasting, diagnosed_diabetes, bmi).
 
-🛠️ Libraries Used
+🛠️ Libraries Used:
+
 pandas & numpy for data manipulation
 matplotlib & seaborn for visualization
 kagglehub for data loading
