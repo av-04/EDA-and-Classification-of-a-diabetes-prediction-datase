@@ -49,7 +49,6 @@ Model Accuracy Comparison 🎯
 
 | Model | Accuracy (%) | Notes |
 | :--- | :--- | :--- |
-| **Random Forest** | ~88.0% | Best all-rounder (requires no scaling). |
 | **SVM (LinearSVC)** | **81.04%** | Top-performing of your three models. **Scaling is required.** |
 | **Decision Tree** | 78.62% | Best for explainability (seeing the "rules"). |
 | **KNN** | 78.38% | Simple but effective. **Scaling is required.** |
